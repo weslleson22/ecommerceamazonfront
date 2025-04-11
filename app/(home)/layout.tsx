@@ -1,4 +1,4 @@
-import Header from '@/components/shared/header/index'
+import Header from '@/components/shared/header/Index'
 import Footer from '@/components/shared/footer'
 
 export default async function HomeLayout({
