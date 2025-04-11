@@ -39,15 +39,18 @@ export default function Footer() {
         </div>
         <div className='p-4'>
           <div className='flex justify-center gap-3 text-sm'>
-                <Link href='/page/conditions-of-use'>Conditions of Use</Link>
-                <Link href='/page/privacy-policy'>Privacy Notice</Link> 
-                <Link href='/page/help'>Help</Link>
+                <Link href='/page/conditions-of-use'>Condições de Uso</Link>
+                <Link href='/page/privacy-policy'>Aviso de Privacidade</Link> 
+                <Link href='/page/help'>Ajuda</Link>
           </div>
           <div className='flex justify-center gap-3 text-sm'>
-            <p> 2025, {APP_NAME}, Inc. Or its Affiliates</p>
+            <p> 2025, © {APP_NAME}, Todos os direitos reservados</p>
           </div>
           <div className='mt-8 flex justify-center text-sm text-gray-400'>
-            <p> 1234 Main Street, Anytown, CA 12345 98 984971547</p>
+            <p>
+                   Desenvolvedor de Software📍São Luís – MA, Brasil - CEP 65054-005 📞 (98) 98497-1547 ✉️ sw.suportedev@gmail.com  
+            
+            </p>
             
           </div>
 
