@@ -22,16 +22,16 @@ export default async function Header() {
               className='flex items-center header-button font-extrabold text-2xl m-1 '
             >
               <Image
-                src='/public/icons/logo.svg'
+                src='icons/logo.svg'
                 width={40}
                 height={40}
-                alt={`${APP_NAME} logo`}
+                alt={`${APP_NAME}`}
               />
               {APP_NAME}
             </Link>
           </div>
 
-          <div className='hidden md:block flex-1 max-w-xl'>
+          <div className=' md:block flex-1 max-w-xl'>
             <Search />
           </div>
           <Menu />

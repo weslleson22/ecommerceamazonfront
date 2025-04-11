@@ -4,6 +4,7 @@ import Link from 'next/link'
 //import Image from 'next/image'
 import { APP_NAME } from '@/lib/constants'
 import { Button } from '@/components/ui/button'
+//import Search from './header/search'
 //import useSettingStore from '@/hooks/use-setting-store'
 //import { Select, SelectContent, SelectItem, SelectTrigger } from '../ui/select'
 
@@ -47,6 +48,7 @@ export default function Footer() {
           </div>
           <div className='mt-8 flex justify-center text-sm text-gray-400'>
             <p> 1234 Main Street, Anytown, CA 12345 98 984971547</p>
+            
           </div>
 
         </div>

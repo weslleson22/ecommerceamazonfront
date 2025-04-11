@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Menu() {
     return (
         <div className="flex items-end">
-            <nav>
+            <nav className="flex gap-4 w-full">
             <Link href="/cart" className="header-button">
                 <UserIcon className="h-8 w-8 "/>
                 <span className="font-bold">Sing In</span>
