@@ -15,7 +15,7 @@ export type Data ={
         url: string
         title: string
         buttonCaption: string
-        ipPublished: boolean
+        isPublished: boolean
       }[]
       
 }
