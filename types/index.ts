@@ -10,13 +10,12 @@ export type Data ={
         name:string
         href: string
     }[]
-    carousels:{
-
-
+    carousels: {
         image: string
         url: string
         title: string
-        buttonCaption: string   
+        buttonCaption: string
         ipPublished: boolean
-    }
+      }[]
+      
 }
