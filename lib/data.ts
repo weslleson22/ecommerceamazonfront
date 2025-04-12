@@ -836,38 +836,39 @@ We also provide helpful resources such as order tracking, product guides, and FA
   ],
   headerMenus: [
     {
-      name: "Today's Deal",
+      name: 'Oferta do Dia',
       href: '/search?tag=todays-deal',
     },
     {
-      name: 'New Arrivals',
+      name: 'Lançamentos',
       href: '/search?tag=new-arrival',
     },
     {
-      name: 'Featured Products',
+      name: 'Produtos em Destaque',
       href: '/search?tag=featured',
     },
     {
-      name: 'Best Sellers',
+      name: 'Mais Vendidos',
       href: '/search?tag=best-seller',
     },
     {
-      name: 'Browsing History',
+      name: 'Histórico de Navegação',
       href: '/#browsing-history',
     },
     {
-      name: 'Customer Service',
+      name: 'Atendimento ao Cliente',
       href: '/page/customer-service',
     },
     {
-      name: 'About Us',
+      name: 'Sobre Nós',
       href: '/page/about-us',
     },
     {
-      name: 'Help',
+      name: 'Ajuda',
       href: '/page/help',
     },
   ],
+  
   //antes era carrousels
   carousels: [
     {
